@@ -97,7 +97,8 @@ out("Capitalized:", result);
 
 //? SOLUTION: 
 out("================Problem No : 06================")
-let words = ["apple", "banana", "cherry", "watermelon"];
+let sentence = "I Love JavaScript";
+let words = sentence.split(" ");
 let longest = words[0];
 
 for (let i = 1; i < words.length; i++) {
@@ -106,7 +107,7 @@ for (let i = 1; i < words.length; i++) {
   }
 }
 out("Longest word:", longest);
-//output: Longest word: watermelon
+//output: Longest word: JavaScript
 
 //! 7. Array Chunking – Split an array into chunks of a given size. E.g., chunking
 //!    [1,2,3,4,5] by 2 yields [[1,2],[3,4],[5]]. 
